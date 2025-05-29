@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects - Kashika V</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #e0f7fa;
+      color: #023047;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #0077b6;
+      font-size: 2.8rem;
+      margin-bottom: 40px;
+    }
+
+    .project {
+      background: white;
+      padding: 20px 25px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .project-title {
+      font-size: 1.8rem;
+      color: #023047;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .project-description {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      color: #034f84;
+    }
+
+    .project-tech {
+      font-style: italic;
+      color: #0077b6;
+      font-weight: 600;
+    }
+
+    /* Back to portfolio button */
+    .back-btn {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .back-btn a {
+      text-decoration: none;
+      background-color: #0077b6;
+      color: white;
+      padding: 14px 30px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
+
+    .back-btn a:hover {
+      background-color: #005f8d;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 0 15px;
+      }
+      .project-title {
+        font-size: 1.5rem;
+      }
+      .project-description {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Projects</h1>
+
+  <div class="project">
+    <div class="project-title">Land Use/Land Cover Classification of Kancheepuram District</div>
+    <div class="project-description">
+      Conducted time-series land use and land cover classification from 2015 to 2025 using Sentinel-2 and Landsat satellite data.
+      Utilized Google Earth Engine for data analysis and change detection to study environmental transformations.
+    </div>
+    <div class="project-tech">Technologies: Google Earth Engine, Sentinel-2, Landsat, Remote Sensing, GIS</div>
+  </div>
+
+  <div class="project">
+    <div class="project-title">NDVI and Vegetation Health Monitoring</div>
+    <div class="project-description">
+      NDVI-based crop health monitoring in an agricultural district using Sentinel-2 or MODIS data in Google Earth Engine, implemented with JavaScript.
+    </div>
+    <div class="project-tech">Technologies: Google Earth Engine, Sentinel-2, MODIS, NDVI, JavaScript, Remote Sensing</div>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Air Quality Visualization</div>
+    <div class="project-description">
+      Visualization of NO₂ and CO level variations in Delhi during lockdown and unlock phases using Sentinel-SP data in Google Earth Engine.
+    </div>
+    <div class="project-tech">Technologies: Google Earth Engine, Sentinel-SP, Air Quality Monitoring, Remote Sensing, GIS</div>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Urban Heat Island (UHI) Detection</div>
+    <div class="project-description">
+      Mapping Urban Heat Island effect in Chennai using Landsat thermal imagery processed in Google Earth Engine.
+    </div>
+    <div class="project-tech">Technologies: Google Earth Engine, Landsat Thermal Imagery, Urban Heat Island, Remote Sensing, GIS</div>
+  </div>
+
+  <div class="back-btn">
+    <a href="index.html">⬅️ Back to Portfolio</a>
+  </div>
+
+</body>
+</html>
